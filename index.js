@@ -55,7 +55,7 @@ const SEARCHES = [
 ]
 
 const VIDEOS = [
-  'albundy.mp4',
+  'sex.mp4',
   'badger.mp4',
   'cat.mp4',
   'hasan.mp4',
@@ -71,12 +71,7 @@ const FILE_DOWNLOADS = [
   'eren.png',
   'hateyou.png',
   'luv.png',
-  'v4mp.png',
-  'cat-hover.jpg',
-  'cat-marshmellows.jpg',
-  'cat-small-face.jpg',
-  'cat-smirk.jpg',
-  'patreon.png'
+  'v4mp.png'
 ]
 
 const PHRASES = [
