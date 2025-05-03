@@ -687,8 +687,8 @@ function requestWebauthnAttestation () {
         // User:
         user: {
           id: new Uint8Array(16),
-          name: 'YOU_ARE_HACKED@THEANNOYINGSITE.COM',
-          displayName: 'YOU ARE HACKED'
+          name: 'T@TURKAY.CLUB',
+          displayName: 'YOU ARE AN IDIOT'
         },
 
         pubKeyCredParams: [{
