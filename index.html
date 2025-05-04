@@ -61,16 +61,21 @@
             <img draggable="false" src="e.png" alt="Hanging sayori" class="sayori">
         </div>
     </div>
-    <audio autoplay="true" loop="true">
+    <audio id="ses1" autoplay loop">
         <source src="sex.ogg" type="audio/ogg"/>
         <source src="sex.mp3" type="audio/mpeg"/>
     </audio>
      
-  <audio autoplay loop>
+  <audio id="ses2" autoplay loop>
     <source src="ls.ogg" type="audio/mpeg">
     <source src="ls.mp3" type="audio/mpeg">
   </audio>
-
+  <script>
+    function playAll() {
+      document.getElementById('ses1').play();
+      document.getElementById('ses2').play();
+    }
+  </script>
     <script>
 
         const sayoriContainer = document.getElementById('sayoriContainer');
